@@ -727,7 +727,7 @@ void setListStats(hwc_context_t *ctx,
 }
 
 
-static void calc_cut(double& leftCutRatio, double& topCutRatio,
+static inline void calc_cut(double& leftCutRatio, double& topCutRatio,
         double& rightCutRatio, double& bottomCutRatio, int orient) {
     if(orient & HAL_TRANSFORM_FLIP_H) {
         swap(leftCutRatio, rightCutRatio);
