@@ -57,3 +57,6 @@ endif
 ifneq ($(TARGET_DISPLAY_INSECURE_MM_HEAP),true)
     common_flags += -DSECURE_MM_HEAP
 endif
+
+common_includes += system/core/base/include
+common_includes += frameworks/native/libs/arect/include
