@@ -31,6 +31,7 @@
 #include <sys/ioctl.h>
 #include <linux/fb.h>
 #include <linux/msm_mdp.h>
+#include <string.h>
 #include "mdp_version.h"
 
 namespace android {

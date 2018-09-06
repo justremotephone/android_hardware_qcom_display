@@ -29,6 +29,7 @@
 
 #include <cutils/log.h>
 #include <fcntl.h>
+#include <string.h>
 #include <dlfcn.h>
 #include <gralloc_priv.h>
 #include "alloc_controller.h"
